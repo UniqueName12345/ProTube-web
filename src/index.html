@@ -1,0 +1,33 @@
+<!-- html page template with the title "ProTube - Home" -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ProTube - Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <!-- if javascript is disabled, throw error message -->
+    <noscript>
+        <div class="alert alert-danger">
+            <strong>Warning!</strong> Javascript is disabled. Please enable javascript to use this site.
+        </div>
+    </noscript>
+    <!-- if javascript is enabled and if user isn't logged in, ask for google account credentials -->
+    <body onload="checkLogin()">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="jumbotron">
+                        <h1>ProTube</h1>
+                        <p>Welcome to ProTube!</p>
+                        <p>Please login to continue.</p>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="login.php" role="button">Login</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
