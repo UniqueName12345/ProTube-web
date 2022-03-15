@@ -25,3 +25,8 @@ You can now browse to the domain name renter's file system. You can find the ind
 
 You have successfully hosted the project yourself!
 
+## Testing using the Link
+Are you serious? You can test the project using the link: https://www.protube-web.github.io/index.html
+
+## Credits
+This project was inspired by [Vanced](https://www.vancedapp.com/) which was a project similar to this, but without the Odysee support, with a lot of other features and is on android. But that project was discontinued.
