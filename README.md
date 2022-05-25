@@ -1,4 +1,9 @@
 # ProTube-web
+
+# THIS WILL NOT GET WORKED ON IN THE FUTURE ANYMORE!
+## Do not ask me to fix this. See issue #1 for reasons why.
+
+### Take the below with a grain of salt, please. 
 An open source project that allows you to watch videos from YouTube and Odysee.
 
 ## Features
